@@ -1,11 +1,11 @@
-# sum of digits
+# count digits
 
 num = int(input("Enter number: "))
 
-s = 0
+count = 0
 
 while num > 0:
-    s = s + num % 10
     num = num // 10
+    count = count + 1
 
-print(s)
+print(count)
