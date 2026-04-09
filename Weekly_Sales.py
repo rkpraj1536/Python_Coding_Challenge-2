@@ -1,0 +1,9 @@
+# weekly sales total
+
+sales = [100,200,150,300,250,400,100]
+
+total = 0
+for s in sales:
+    total = total + s
+
+print(total)
