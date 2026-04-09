@@ -1,7 +1,7 @@
 # age category
 
 age = int(input("Enter age: "))
-# checing the condition 
+# checking the condition  
 if age < 18:
     print("Minor")
 elif age < 60:
